@@ -47,7 +47,7 @@ h2{
     border-radius: 30px;
     border: #8EA1E1 solid 1px;
     color: white;
-    padding: 10px 15px;
+    padding: 15px 20px;
     margin: 10px;
 }
 
@@ -145,6 +145,7 @@ nav{
     flex-direction: column;
     align-items: center;
     padding: 40px;
+    margin-bottom: 70px
 }
 
 .caption{
@@ -176,9 +177,11 @@ h4{
     font-size: 28px;
     text-align: center;
     background-image: url(../img/stars.svg);
-    background-position: center;
-    background-size: cover;
+    background-position: center top;
+    background-size: contain;
     margin-bottom: 50px;
+    padding: 47px;
+    background-repeat: no-repeat;
 }
 
 /*footer*/
@@ -191,6 +194,7 @@ footer{
 .footer-social{
     background-color: #23272A;
     width: 40%;
+    padding-left: 50px;
 }
 
 h5{
@@ -201,6 +205,7 @@ h5{
 
 .footer-social img{
     max-width: 30px;
+    
 }
 
 .footer-social span{
@@ -211,7 +216,7 @@ h5{
     color: white;
 }
 
-.fa-brands .fa-facebook, 
+.fa-facebook, 
 .fa-instagram,
 .fa-twitter,
 .fa-youtube {
@@ -222,10 +227,20 @@ h5{
 }
 
 .col-menu{
-    background-color: rgb(53, 124, 124);
+    background-color: #23272A;
     width: 20%;
-    border-style: dotted;
-    border-color: white;
+}
+
+.col-menu ul li:first-of-type{
+    color: #7289DA;
+    font-weight: bold;
+}
+
+.col-menu ul li{
+    list-style-type: none;
+    color: white;
+    padding: 10px;
+    
 }
 
 hr{
@@ -233,9 +248,14 @@ hr{
 }
 
 .button-action{
-    background-color: aquamarine;
+    background-color: #23272A;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.button-action .button3{
+    font-size: 15px;
+    padding: 10px 15px;
 }
