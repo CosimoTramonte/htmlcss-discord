@@ -4,11 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif ;
 }
 
 .container{
     margin: 0 auto;
-    width: 70%;
+    width: 85%;
     max-width: 1170px;
     min-height: 50px;
     display: flex;
@@ -74,7 +75,7 @@ nav ul{
 }
 
 nav ul li{
-    margin-right: 15px;
+    margin: 0px 15px;
 }
 
 a{
@@ -83,12 +84,6 @@ a{
 }
 
 nav{
-    height: 40px;
-    width: 60%;    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     background-color: #255EE9;
 }
 
