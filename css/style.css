@@ -1,3 +1,5 @@
+/*General*/
+
 *{
     margin: 0;
     padding: 0;
@@ -12,13 +14,41 @@
     display: flex;
 }
 
+p{
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 60px;
+}
+
+.button1{
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: white solid 1px;
+    color: black;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.button2{
+    background-color: #23272A;
+    border-radius: 30px;
+    border: #23272A solid 1px;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+}
 /*HEADER*/
 
 header{
-    background-color: rgb(61, 212, 250);
+    background-color: #255EE9;
     color: white;
     min-height: 40px;
     padding: 40px;
+    padding-bottom: 30px;
 }
 
 header .container{
@@ -27,6 +57,14 @@ header .container{
     align-items: center;
     flex-wrap: wrap;
     color: black;
+}
+
+.logo{
+    width: 20%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #255EE9;
 }
 
 nav ul{
@@ -39,53 +77,49 @@ nav ul li{
     margin-right: 15px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 nav{
-    background-color: orange;
     height: 40px;
     width: 60%;    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    border-style: dotted;
-    border-color: black;
+    background-color: #255EE9;
 }
 
-.login{
-    background-color: orange;
-    width: 20%;
-    height: 40px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    border-style: dotted;
-    border-color: black;
-}
 
-.logo{
-    background-color: orange;
-    width: 20%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    border-style: dotted;
-    border-color: black;
-}
+/*jumbotron*/
 
 .jumbotron{
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.jumbotron h2, .jumbotron p{
+    color: white;
+}
+
 .main-content{
-    background-color: palevioletred;
     height: 400px;
     min-width: 60%;
-    border-style: dotted;
-    border-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-content .cta{
+    display: flex;   
 }
 
 /*MAIN*/
@@ -168,8 +202,8 @@ hr{
     align-items: center;
 }
 
-.button{
+/*.button{
     border-style: dotted;
     border-color: black;
     background-color: rgb(235, 123, 145);
-}
+}*/
