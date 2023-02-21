@@ -137,8 +137,11 @@ nav{
 .main-wrapper1,.main-wrapper2{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 150px;
     padding: 40px;
+}
+
+.main-wrapper2{
+    background-color: #F6F6F6;
 }
 
 .main-wrapper3{
@@ -161,6 +164,10 @@ nav{
 .caption h2{
     font-size: 44px;
     margin-bottom: 20px;
+}
+
+.section-four{
+    background-color: #F6F6F6;
 }
 
 .main-wrapper3 h2{
@@ -258,4 +265,25 @@ hr{
 .button-action .button3{
     font-size: 15px;
     padding: 10px 15px;
+}
+
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url('../img/wave.svg');
+    height: 300px;
+}
+
+.layer2 {
+    background-image: url('../img/wave.svg');
+    -webkit-transform: scaleY(-1);
+     transform: scaleY(-1);
+     height: 300px;
 }
