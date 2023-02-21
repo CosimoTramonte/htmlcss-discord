@@ -16,7 +16,6 @@
 }
 
 p{
-    width: 40%;
     font-size: 20px;
     text-align: center;
 }
@@ -42,6 +41,16 @@ h2{
     padding: 10px 15px;
     margin: 10px;
 }
+
+.button3{
+    background-color: #8EA1E1;
+    border-radius: 30px;
+    border: #8EA1E1 solid 1px;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
 /*HEADER*/
 
 header{
@@ -94,10 +103,11 @@ nav{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
-    height: 500px;
+    min-height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 70px;
 }
 
 .jumbotron h2, .jumbotron p{
@@ -117,66 +127,99 @@ nav{
     display: flex;   
 }
 
+.main-content p{
+    width: 40%;
+}
+
 /*MAIN*/
 
 .main-wrapper1,.main-wrapper2{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15px;
+    margin-bottom: 150px;
     padding: 40px;
 }
 
-.main-wrapper2{
-    background-color: lightgray;
-}
-
 .main-wrapper3{
-    background-color: lightgray;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding: 40px;
 }
 
-.main-wrapper3 .container div{
-    background-color: green;
-    min-height: 550px;
-    min-width: 100%;
-    border-style: dotted;
-    border-color: black;
-}
-
-.illustration{
-    background-color: darkcyan;
-    height: 400px;
-    width: 60%;
-    border-style: dotted;
-    border-color: black;
-}
-
 .caption{
-    background-color: pink;
-    height: 400px;
     width: 40%;
-    border-style: dotted;
-    border-color: black;
+    padding-top: 32px;
+}
+
+.caption p{
+    text-align: left;
+}
+
+.caption h2{
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.main-wrapper3 h2{
+    font-size: 48px;
+    margin-bottom: 31px;
+    text-align: center;
+}
+
+.main-wrapper3 img{
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+h4{
+    font-size: 28px;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
 }
 
 /*footer*/
 
 footer{
-    background-color: rgb(29, 28, 28);
+    background-color: #23272A;
     padding: 40px;
 }
 
 .footer-social{
-    background-color: indianred;
-    min-height: 400px;
+    background-color: #23272A;
     width: 40%;
-    border-style: dotted;
-    border-color: black;
 }
 
+h5{
+    font-size: 30px;
+    color: #7289DA;
+    margin-bottom: 20px;
+}
+
+.footer-social img{
+    max-width: 30px;
+}
+
+.footer-social span{
+    color: white;
+    margin-left: 5px;
+}
+.fa, .fa-chevron-dowm{
+    color: white;
+}
+
+.fa-brands .fa-facebook, 
+.fa-instagram,
+.fa-twitter,
+.fa-youtube {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
 
 .col-menu{
     background-color: rgb(53, 124, 124);
@@ -196,9 +239,3 @@ hr{
     justify-content: space-between;
     align-items: center;
 }
-
-/*.button{
-    border-style: dotted;
-    border-color: black;
-    background-color: rgb(235, 123, 145);
-}*/
