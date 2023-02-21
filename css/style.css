@@ -94,6 +94,7 @@ a{
 
 nav{
     background-color: #255EE9;
+    margin-right: 63px;
 }
 
 
@@ -194,7 +195,6 @@ footer{
 .footer-social{
     background-color: #23272A;
     width: 40%;
-    padding-left: 50px;
 }
 
 h5{
