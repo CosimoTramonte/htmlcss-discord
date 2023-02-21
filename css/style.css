@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1170px;
+    min-height: 50px;
+    display: flex;
+}
+
+/*HEADER*/
+
+header{
+    background-color: rgb(61, 212, 250);
+    color: white;
+    min-height: 40px;
+    padding: 40px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    margin-right: 15px;
+}
+
+nav{
+    background-color: orange;
+    height: 40px;
+    width: 60%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-style: dotted;
+    border-color: black;
+}
+
+.login{
+    background-color: orange;
+    width: 20%;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-style: dotted;
+    border-color: black;
+}
+
+.logo{
+    background-color: orange;
+    width: 20%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-style: dotted;
+    border-color: black;
+}
+
+.jumbotron{
+    background-color: blue;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content{
+    background-color: palevioletred;
+    height: 400px;
+    min-width: 60%;
+    border-style: dotted;
+    border-color: black;
+}
+
+/*MAIN*/
+
+.main-wrapper1,.main-wrapper2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 40px;
+}
+
+.main-wrapper2{
+    background-color: lightgray;
+}
+
+.main-wrapper3{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.main-wrapper3 .container div{
+    background-color: green;
+    min-height: 550px;
+    min-width: 100%;
+    border-style: dotted;
+    border-color: black;
+}
+
+.illustration{
+    background-color: darkcyan;
+    height: 400px;
+    width: 60%;
+    border-style: dotted;
+    border-color: black;
+}
+
+.caption{
+    background-color: pink;
+    height: 400px;
+    width: 40%;
+    border-style: dotted;
+    border-color: black;
+}
+
+/*footer*/
+
+footer{
+    background-color: rgb(29, 28, 28);
+    padding: 40px;
+}
+
+.footer-social{
+    background-color: indianred;
+    min-height: 400px;
+    width: 40%;
+    border-style: dotted;
+    border-color: black;
+}
+
+
+.col-menu{
+    background-color: rgb(53, 124, 124);
+    width: 20%;
+    border-style: dotted;
+    border-color: white;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+.button-action{
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    border-style: dotted;
+    border-color: black;
+    background-color: rgb(235, 123, 145);
+}
